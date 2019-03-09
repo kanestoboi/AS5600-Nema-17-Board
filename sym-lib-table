@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name AS5600-Breakout-rescue)(type Legacy)(uri "${KIPRJMOD}/AS5600 Breakout-rescue.lib")(options "")(descr ""))
+  (lib (name AS5600)(type Legacy)(uri ${KIPRJMOD}/AS5600.lib)(options "")(descr ""))
 )
