@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AS5600-Breakout-rescue:AS5600-AS5600-Breakout-rescue U1
+L AS5600-Breakout-rescue:AS5600-AS5600-Breakout-rescue-AS5600-Breakout-rescue U1
 U 1 1 5B77739F
 P 5500 4300
 F 0 "U1" H 5450 4600 60  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "AS5600-ASOM" H 5500 4300 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:C-AS5600-Breakout-rescue C2
+L AS5600-Breakout-rescue:C-AS5600-Breakout-rescue-AS5600-Breakout-rescue C2
 U 1 1 5B7775CB
 P 5050 3950
 F 0 "C2" H 5100 3850 50  0000 L CNN
@@ -38,7 +38,7 @@ F 3 "" H 5050 3950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue #PWR01
+L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue-AS5600-Breakout-rescue #PWR01
 U 1 1 5B777636
 P 5050 3750
 F 0 "#PWR01" H 5050 3500 50  0001 C CNN
@@ -49,7 +49,7 @@ F 3 "" H 5050 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue #PWR02
+L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue-AS5600-Breakout-rescue #PWR02
 U 1 1 5B77765C
 P 6400 3100
 F 0 "#PWR02" H 6400 2850 50  0001 C CNN
@@ -62,7 +62,7 @@ $EndComp
 Wire Wire Line
 	5000 4150 5050 4150
 $Comp
-L AS5600-Breakout-rescue:C-AS5600-Breakout-rescue C1
+L Device:C C1
 U 1 1 5B777736
 P 4700 4050
 F 0 "C1" H 4550 4150 50  0000 L CNN
@@ -73,7 +73,7 @@ F 3 "" H 4700 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue #PWR03
+L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue-AS5600-Breakout-rescue #PWR03
 U 1 1 5B77776C
 P 4700 3850
 F 0 "#PWR03" H 4700 3600 50  0001 C CNN
@@ -84,7 +84,7 @@ F 3 "" H 4700 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue #PWR04
+L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue-AS5600-Breakout-rescue #PWR04
 U 1 1 5B77778C
 P 5050 4500
 F 0 "#PWR04" H 5050 4250 50  0001 C CNN
@@ -153,15 +153,13 @@ Wire Wire Line
 Wire Wire Line
 	6900 2950 6900 3000
 Wire Wire Line
-	6150 4150 6200 4150
-Wire Wire Line
 	6150 4250 6550 4250
 Wire Wire Line
 	6700 4350 6550 4350
 Wire Wire Line
 	6150 4450 6250 4450
 $Comp
-L AS5600-Breakout-rescue:R-AS5600-Breakout-rescue R1
+L Device:R R1
 U 1 1 5B777C09
 P 6700 4100
 F 0 "R1" V 6600 4100 50  0000 C CNN
@@ -172,7 +170,7 @@ F 3 "" H 6700 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:R-AS5600-Breakout-rescue R2
+L Device:R R2
 U 1 1 5B777C78
 P 6700 4500
 F 0 "R2" V 6780 4500 50  0000 C CNN
@@ -185,7 +183,7 @@ $EndComp
 Connection ~ 6550 4250
 Connection ~ 6550 4350
 $Comp
-L AS5600-Breakout-rescue:Conn_01x07-AS5600-Breakout-rescue J1
+L AS5600-Breakout-rescue:Conn_01x07-AS5600-Breakout-rescue-AS5600-Breakout-rescue J1
 U 1 1 5B78A669
 P 6600 2750
 F 0 "J1" V 6700 3100 50  0000 C CNN
@@ -198,7 +196,7 @@ $EndComp
 Text GLabel 7050 4300 2    45   Input ~ 0
 5V
 $Comp
-L AS5600-Breakout-rescue:R-AS5600-Breakout-rescue R3
+L Device:R R3
 U 1 1 5C26F27D
 P 6200 4000
 F 0 "R3" H 6300 4000 50  0000 C CNN
@@ -209,7 +207,7 @@ F 3 "" H 6200 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue #PWR05
+L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue-AS5600-Breakout-rescue #PWR05
 U 1 1 5C26F2B4
 P 6200 3800
 F 0 "#PWR05" H 6200 3550 50  0001 C CNN
@@ -221,11 +219,10 @@ F 3 "" H 6200 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 3800 6200 3850
-Connection ~ 6200 4150
 Text GLabel 6300 3000 3    45   Input ~ 0
 VIN
 $Comp
-L AS5600-Breakout-rescue:C-AS5600-Breakout-rescue C3
+L AS5600-Breakout-rescue:C-AS5600-Breakout-rescue-AS5600-Breakout-rescue C3
 U 1 1 5C26F570
 P 5300 2850
 F 0 "C3" H 5200 2950 50  0000 L CNN
@@ -236,7 +233,7 @@ F 3 "" H 5300 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:R-AS5600-Breakout-rescue R4
+L Device:R R4
 U 1 1 5C26F640
 P 5050 2700
 F 0 "R4" V 5130 2700 50  0000 C CNN
@@ -247,7 +244,7 @@ F 3 "" H 5050 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue #PWR06
+L AS5600-Breakout-rescue:GND-AS5600-Breakout-rescue-AS5600-Breakout-rescue #PWR06
 U 1 1 5C26F707
 P 5300 3050
 F 0 "#PWR06" H 5300 2800 50  0001 C CNN
@@ -275,8 +272,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 4350 6150 4350
 Wire Wire Line
-	6200 4150 6250 4150
-Wire Wire Line
 	5300 2700 5650 2700
 Wire Wire Line
 	6550 4350 6550 4500
@@ -288,4 +283,9 @@ Wire Wire Line
 	6850 4500 7050 4500
 Wire Wire Line
 	7050 4100 7050 4500
+Connection ~ 6200 4150
+Wire Wire Line
+	6200 4150 6250 4150
+Wire Wire Line
+	6150 4150 6200 4150
 $EndSCHEMATC
